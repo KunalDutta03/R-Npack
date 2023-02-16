@@ -4,7 +4,7 @@
 
 
 npack<-function(x){
-  par(mfrow=c(2,2))
+  par(mfrow=c(1,3))
   hist(x,col=rainbow(30))
   pie(x,col=rainbow(20))
   lines(x,type = "o",col='red')
